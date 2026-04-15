@@ -1,9 +1,9 @@
 #include <msl/string.h>
 
-#include <msl/vector.h>
+#include <msl/containers/vector.h>
 
 struct string
 {
-  struct vector *char_vec;
+  vector_t *char_vec;
 }
 
